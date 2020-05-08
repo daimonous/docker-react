@@ -1,5 +1,5 @@
 sudo: required
-install: travis_wait mvn install
+install: travis_wait -e mvn install
 services:
   - docker
 
